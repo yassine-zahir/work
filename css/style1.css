@@ -1,0 +1,37 @@
+
+body
+{
+    background-image: url('greyzz.png');
+}
+
+h1, h2
+{
+    font-family: 'droid_sansregular', 'Arial', sans-serif;
+}
+
+h1, h1 + p
+{
+    text-align: center;
+}
+
+img
+{
+    float : right;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+h2
+{
+    color: #6E4A46;
+}
+.head { border : 2px solid black ;
+        padding:10%;
+        margin: 1%;
+        border-radius: 50%;
+
+}
+a { font-family: 'droid_sansregular', 'Arial', sans-serif;
+    text-decoration: blanchedalmond;
+
+}

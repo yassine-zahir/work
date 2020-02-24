@@ -1,0 +1,115 @@
+header {
+    position: relative;
+}
+header p{
+    position: absolute; 
+    top:45px;
+    left: 150px;
+    font-size: 1.3em;
+    color: gray;
+   
+
+}
+#nav{
+    text-align: center;
+    border-bottom: 3px solid rgb(131, 217, 233);
+}
+.menu{
+    display: inline-block;
+    margin-left: 5%;
+    color: rgb(131, 217, 233);
+}
+section div h2{
+    color: rgb(131, 217, 233);
+
+}
+section {
+margin-left: 10%;
+margin-right: 10%;
+
+}
+footer {
+    text-align: center;
+    display: inline-block;
+    
+    background-color: rgb(131, 217, 233);
+}
+
+#wa {
+    width: 60px;
+    height: 60px;
+    clear: both;
+}
+ 
+.menu:hover {
+    background-color:rgb(53, 143, 202) ;
+    padding-bottom: 15px;
+      
+    }
+.menu #menu1,#menu2 {
+    position: absolute;
+    left: -999em;  
+    
+    
+}
+.menu:hover #menu1  {
+/* Au survol des li du menu on replace les sous menus */
+    left: 0em;
+    background-color:rgb(53, 143, 202) ;
+    width: 1500px;
+    height: 200px;
+    
+    margin-top: 1%;
+    
+}
+
+#list1{
+    float: left;
+    margin-left: 20%;   
+}
+#mlist2{
+    float: right;
+    margin-right: 30%; 
+}
+li {
+    list-style: none;
+}
+#list1 li{
+    color: whitesmoke;
+}
+#list2 li{
+    color: whitesmoke;
+}
+h3{
+margin-left: 1.5em;
+}
+.menu:hover #menu2  {
+    /* Au survol des li du menu on replace les sous menus */
+        left: 0em;
+        background-color:rgb(53, 143, 202) ;
+        width: 1500px;
+        height: 300px;
+        margin-top: 1%;
+        
+        
+}
+#menu2 ul{
+    display: inline-block;
+    
+}
+#menu2 #list3{
+    float: left;
+    margin-left: 20%;
+}
+#menu2 #list4{
+    float: right;
+    margin-right: 25%;
+}
+#list3  ul li{
+    color: whitesmoke;
+}
+#list4  ul li{
+    color: whitesmoke;
+}
+
+

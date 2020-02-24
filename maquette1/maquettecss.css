@@ -1,0 +1,119 @@
+html, * {
+    padding: 0;
+    margin: 0;
+}
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        display: block;
+        background: url(/img/bg.jpg) no-repeat top center #ada6a0;
+}
+#contener {
+   width: 960px;
+    margin: 0 auto;
+}
+#logo {
+    width: 200px;
+    height: 80px;
+    margin: 15px auto;
+}
+
+.nav {
+    width: auto;
+    height: 45px;
+    background: #faf8f8;
+    box-shadow: 0 0 8px #666;
+    display: block;
+    
+    }
+.nav ul li {
+    float: left;
+    font-size: 16px;
+    margin: 13px 22px 13px 22px;
+}
+.nav ul {
+    list-style: none;
+}
+#search {
+    float: right;
+    border: none;
+   
+    
+}
+#search input {
+    border-radius: 7px;
+    border: 1px solid #CCCCCC;
+    float: left;
+    padding: 8px;
+    width: 285px;
+    margin: 5px;
+}
+#search input.btn {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 10px 0 0 -40px;
+    padding: 0;
+    width: auto;
+}
+#gallery {
+    width: 960px;
+    height: 370px;
+    margin: 20px auto;
+    text-align: center;
+    background: #fff;
+    -moz-box-shadow: 0 0 8px #666;
+    -webkit-box-shadow: 0 0 8px #666;
+    box-shadow: 0 0 8px #666;
+}
+#gallery img{
+    padding: 10px 0;
+}
+.block {
+    width: 200px;
+    float: left;
+    margin-right: 26px;
+    padding: 10px;
+    height: 350px;
+    background: #fff;
+    -moz-box-shadow: 0 0 8px #666;
+    -webkit-box-shadow: 0 0 8px #666;
+    box-shadow: 0 0 8px #666;
+    text-align: justify;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+#desc-box{
+    width: auto;
+    height: 360px;
+    background: #fff;
+    box-shadow: 0 0 8px #666;
+    display: inline-block;
+}
+table tr td{
+    margin: 1em 0.5em 0.5em 1em;
+    padding: 1em 0.5em 0.5em 1em;
+    text-align: justify;
+}
+.footer {
+    width: auto;
+    height: 45px;
+    background: #faf8f8;
+    box-shadow: 0 0 8px #666;
+    display: block; 
+    margin-top: 1em;
+
+
+}
+.footer p {
+    display: inline-block;
+    margin: 1em;
+    
+}
+#home{
+    padding-left: 25em;
+}
+a {
+    text-decoration: none;
+}

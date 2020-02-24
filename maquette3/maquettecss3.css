@@ -1,0 +1,81 @@
+@font-face{
+    font-family:'carado-italic';
+    src:url('/fonts/cardo/cardo-italic.woff')
+}
+@font-face{
+    font-family:'carado-bold';
+    src:url('/fonts/cardo/cardo-bold.woff')
+}
+@font-face{
+    font-family:'carado-regular';
+    src:url('/fonts/cardo/cardo-regular.woff.woff')
+}
+@font-face{
+    font-family: 'blackword';
+    src:url('/fonts/Blacksword.otf')
+}
+body{
+    background-color: #fbfaf5;
+}
+.image{
+    background-image: url(/img/bunting.png);
+    background-repeat: repeat-x;
+    height: 100px;
+}
+div p{
+      
+    font-size: 1.4em;
+    line-height:50px;
+    text-indent: 25px;
+    font-family: 'carado-regular';
+    text-align: justify;
+}
+#contener{
+    width: 800px;
+    margin: 0 25% 0 25%;
+    
+}
+
+h1{
+    margin: 0 40% 0 30%;
+    font-size: 4em;
+    font-family: 'blackword';
+    
+}
+h2{
+    
+    font-size: 2.5em;
+    word-spacing: 25px;
+   
+    font-family:'blackword';
+}
+h3{
+    font-size: 1.5em;
+    word-spacing: 10px;
+    
+    font-family:'blackword';
+}
+span{
+    color:rgb(247, 193, 193);
+}
+
+
+
+
+
+
+#wa { width:3%;
+    margin-left: 48%;
+
+}
+
+#cita{
+    text-indent: 0%;
+    margin-top: 10%;
+    text-align: center;    
+    font-family: 'carado-italic';
+    }
+
+#nom{
+    text-align: end;
+}

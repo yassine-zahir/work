@@ -1,0 +1,164 @@
+#contener {
+    background-image: url(/img/img6/fond.png);
+    display: inline-block;
+    width: 1980px;
+    height: auto;
+}
+
+#tete {
+    background-color: rgb(52, 177, 178);
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    border-bottom: 3px solid rgb(23, 150, 150);
+    border-top: 3px solid rgb(23, 150, 150);
+    font-size: 1em;
+    font-family: sans -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#logo {
+    width: 100px;
+    margin-left: 47%;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+    color: whitesmoke;
+    font-size: 0.7em;
+}
+
+ul {
+    margin-left: 43%;
+}
+
+#welcome {
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5em;
+    color: rgb(97, 89, 89);
+}
+
+#today {
+    background-color: rgb(189, 233, 235);
+    width: 40%;
+    height: auto;
+    margin: 25px 0 100px 300px;
+    padding-bottom: 5%;
+    display: inline-block;
+    float: left;
+}
+
+h2 {
+    font-size: 3.5em;
+    text-align: center;
+    clear: both;
+}
+
+span {
+    color: rgb(52, 177, 178);
+}
+
+#droite {
+    float: left;
+    width: 280px;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+#gauche {
+    float: right;
+    text-align: justify;
+    width: 300px;
+    margin-right: 50px;
+}
+
+.radius {
+    width: auto;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+
+h4 {
+    font-size: 1.8em;
+    text-align: center;
+    color: rgb(122, 121, 117);
+}
+
+h4::before {
+    content: url(/img/img6/drop_icon-icons.com_54400.ico);
+    margin: 0.5em;
+}
+
+h4::after {
+    content: url(/img/img6/drop_icon-icons.com_54400.ico);
+    margin: 0.5em;
+}
+
+.adress a {
+    text-decoration: none;
+    background-color: rgb(52, 177, 178);
+    color: whitesmoke;
+    padding: 10px;
+    float: right;
+}
+
+a span {
+    padding: 2px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    color: rgb(52, 177, 178);
+}
+
+a:hover {
+    color: greenyellow
+}
+
+#event {
+    background-color: rgb(52, 177, 178);
+    width: 25%;
+    height: auto;
+    margin: 25px 300px 100px 0px;
+    display: inline-block;
+    float: right;
+    padding: 10px;
+    position: relative;
+}
+
+i {
+    color: rgb(219, 205, 205);
+}
+
+h3 span {
+    color: whitesmoke;
+}
+
+h3 {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#vignette {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+#footer {
+    text-align: center;
+    display: inline-block;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#wa {
+    width: 60px;
+    height: 60px;
+    clear: both;
+}

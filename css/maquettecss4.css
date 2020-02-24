@@ -1,0 +1,22 @@
+body{
+    width: 600px;
+    margin: 0 auto;
+    font-family: helvetica;
+    background-color: #eee;
+}
+.titre{
+    width: auto;
+    height: 25px;
+    background: #faf8f8;
+    border-bottom: 3px solid #ccc;
+    display: block;
+}
+h3{
+    text-indent: 0.5em;
+}
+p{
+    text-align: justify;
+    font-size:14px ;
+    line-height:21px;
+    font-weight: 100;
+}

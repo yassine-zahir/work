@@ -1,0 +1,30 @@
+span{
+    color: rgb(77, 77, 80);
+}
+#rouge{
+    color: red;
+}
+#bleu{
+    color:blue;
+    }
+#vert{
+    color:green;
+
+}   
+#bgr{
+    background-color: red;
+} 
+#bgb{
+    background-color: blue;
+}
+#bgv{
+    background-color: green;
+}
+#wa { width:3%;
+    margin-left: 48%;
+
+}
+#para{
+    display: flex;
+    justify-content: center;
+}

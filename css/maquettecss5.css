@@ -1,0 +1,76 @@
+body{
+    background-image: url("/img/fond.png");
+    display: inline-block;
+}
+#contener {
+    width: 750px;
+    height: 1100px;
+    margin-top: 1px;
+    margin-left: 20%;
+    margin-right: 50%;
+    
+    font-family: helvetica;
+    background-color: whitesmoke;
+    
+    
+}
+#tete{
+    display: inline-block;
+    width: 100%;
+    height: 127px;
+    
+    background-color: rgb(184, 203, 33);
+}
+.link {
+    float: right;
+    margin-right: 10%;
+    margin-top: 50px;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: black;
+    
+}
+.intro{
+    display: inline-block;
+    margin: 2%;
+    
+}
+img {
+    width:150px;
+    height: 85px;
+    float: left;
+    margin:1%;
+}
+p {
+    line-height: 25px;
+    margin:1%;
+    
+}
+.read {
+    background-color: rgb(184, 203, 33);
+    color: blanchedalmond;
+    padding: 10px;
+    float:right;
+    margin-right: 20px;
+    text-decoration: none;
+}
+h2{
+    color: rgb(184, 203, 33);
+    margin-left: 0.5em;
+}
+#footer{ 
+    text-align: center;
+    
+}
+#wa{
+    width: 80px;
+    height: 60px;
+    margin-left: 36em;
+    margin-right: 45em;
+}
+ul{
+    margin-left: 3em;
+    line-height: 25px;
+    margin:1%;
+}
+

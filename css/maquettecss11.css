@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'bodega';
+    src: url(/fonts/BodegaSans_Black.ttf);
+}
+
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+51,0a0e0a+51,0a0809+100 */
+    background: #ffffff;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ffffff 51%, #0a0e0a 51%, #0a0809 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ffffff 51%, #0a0e0a 51%, #0a0809 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ffffff 51%, #0a0e0a 51%, #0a0809 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#0a0809', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+
+}
+
+header img {
+    margin-left: 7%;
+}
+
+header ul {
+    display: inline;
+    color: white;
+    float: right;
+    list-style: none;
+    margin-right: 5%;
+}
+
+header ul li {
+    margin-bottom: 10%;
+    font-size: 1em;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 2%;
+}
+
+
+
+.flexslider {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.flex-control-nav {
+    display: block;
+}
+
+section {
+
+    background-image: url(/img/bg_body.svg);
+    background-color: rgb(68, 68, 68, 0.8);
+    /* background-blend-mode: screen; */
+    /* background-blend-mode: lighten; */
+    font-family: bodega;
+
+
+}
+
+h1,h2 {
+    color: white;
+}
+
+.descrip_moto {
+    width: 16%;
+    background-color: white;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+
+
+
+
+}
+
+.descrip_moto img {
+    width: 50%;
+
+
+}
+
+#moto ul li {
+
+    list-style: none;
+    display: inline-block;
+
+}
+
+span {
+    color: rgb(255, 157, 0)
+}
+
+#moto {
+    border: 1px solid black;
+    width: 70%;
+    margin: 3% auto;
+}
+
+.savoir_plus {
+    background-color: rgb(255, 157, 0);
+    color: whitesmoke;
+    padding: 4%;
+    width: 60%;
+    margin-left: 15%;
+}
+
+h3 {
+    color: rgb(255, 157, 0);
+    border-bottom: 1px solid rgb(255, 157, 0);
+    width: 100%;
+
+}
+
+#video {
+    width: 50%;
+    margin-left: 2%;
+    
+
+
+
+}
+
+#detail {
+    /* border: 1px solid black; */
+    width: 70%;
+    margin: 0% auto;
+    
+
+
+}
+
+#contenu ul li {
+    list-style: none;
+    color: white;
+    display: inline;
+    margin: 5%;
+
+}
+
+#contenu {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    float: left;
+
+
+}
+
+#conclu {
+    text-align: center;
+    color: rgb(214, 209, 209);
+    /* border-top: 2px solid rgb(68, 68, 68, 0.8); */
+    margin-top: 5%;
+    background: linear-gradient(rgb(139, 138, 138), #0000 5px);
+    padding-top: 2%;
+
+
+
+}
+
+#conclu ul li {
+    display: inline;
+    margin-left: 2%;
+
+}
+
+a {
+    color: rgb(214, 209, 209);
+}
+
+footer {
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+    margin-left: 5%;
+    color: rgb(214, 209, 209);
+    ;
+
+
+}
+
+#wa {
+    width: 60px;
+    height: 60px;
+
+}
+
+@media screen and (max-width: 768px) { 
+#contenu ul li {
+
+    display: block;
+
+}
+
+#contenu {
+    width: 100%;
+
+
+}
+
+#video {
+    width: 80%;
+margin-left: 10%;
+
+}
+
+#detail {
+
+
+
+    display: inline;
+
+
+
+}
+
+.descrip_moto {
+    width: 90%;
+
+}
+
+#moto {
+    border: 0px solid black;
+
+    margin: 0 auto;
+
+}
+
+
+.flex-control-nav {
+    display: none;
+
+}
+}
+
+ @media screen and (max-width: 480px) 
+{ header{
+    width: 100%;
+    height: 400px;
+}
+#moto{
+    border: 0px solid rgb(68, 68, 68, 0.8);
+    width: 90%;
+    
+}
+.descrip_moto {
+    width: 240px;
+    
+    display: block;
+    
+
+    
+}
+h2 {
+    text-align: center;
+}
+.flex-control-nav{
+    display: none;
+}
+}
